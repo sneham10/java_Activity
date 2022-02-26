@@ -3,7 +3,9 @@ import java.util.*;
 class name{
 public static void main(String[] args){
 Scanner sc=new Scanner(System.in);
+System.out.println("Enter first name");
 String Firstname=sc.nextLine();
+System.out.println("Enter Last name");
 String Lastname=sc.nextLine();
 
 String F1=Firstname.substring(0,1);
