@@ -1,6 +1,7 @@
-import java.util.*;
-
-class Main{
+package Day1.Activity1;
+import java.util.Scanner;
+public class Activity1 {
+   
 public static void main(String[] args){
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter first name");
@@ -21,3 +22,4 @@ F2=F2.toLowerCase();
 System.out.println(Firstname+" "+Lastname);
 
 }}
+

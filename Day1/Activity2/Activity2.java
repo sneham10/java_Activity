@@ -1,6 +1,7 @@
+package Day1.Activity2;
 import java.util.*;
 
-class activity{
+public class Activity2 {
 public static void main(String[] args){
 Scanner sc=new Scanner(System.in);
 String string1=sc.nextLine();
@@ -19,3 +20,4 @@ else
 {System.out.println("NO");}
 
 }}
+
