@@ -17,7 +17,7 @@ string2=string2.substring(string2.indexOf(" "),string2.length());}
 if (string1.equals(string2)==true){
 System.out.println("YES");}
 else
-{System.out.println("NO");}
+{System.out.println("No");}
 
 }}
 
