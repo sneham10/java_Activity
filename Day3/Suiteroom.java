@@ -1,6 +1,4 @@
-package Day3;
-
-class Suitroom extends Room{
+class Suiteroom extends Hotelroom{
 
     private int ratepersqfeet=15;
     Suiteroom()
@@ -22,8 +20,10 @@ class Suitroom extends Room{
     }
     public  int display123(int a)
     {
+    
     if(a==1)
     {
+   
     a=ratepersqfeet+2;
     
     return a;

@@ -1,12 +1,9 @@
-package Day3;
-
-
-class DeluxeSeaView extends Deluxe{
+class DeluxeSeaViewroom extends Deluxe{
     private int ratepersqfeets=12;
-    DeluxeSeaView()
+    DeluxeSeaViewroom()
     {
     }
-    DeluxeSeaView(int ratepersqfeets)
+    DeluxeSeaViewroom(int ratepersqfeets)
     {
     this.ratepersqfeets=12;
     }
@@ -21,10 +18,10 @@ class DeluxeSeaView extends Deluxe{
     }
     public  int display11(int a)
     {
-    
+    //System.out.println("Room has Wifi");
     if(a==1)
     {
-    
+    //System.out.println(ratepersqfeet);
     a=ratepersqfeets+2;
     
     return a;

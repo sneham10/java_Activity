@@ -1,7 +1,6 @@
-package Day3;
-import java.io.*;
-import java.util.*;
-public class Room {
+
+
+class Hotelroom{
 private String hotelName;
 private int numberOfSqFeet;
 private boolean hasTV;
@@ -51,12 +50,14 @@ hasWifi=b2;
 public boolean getHasWifi(){
 return hasWifi;
 }
-
+ // System.out.println(numberOfSqFeet);
 
 public void  display(int n){
 
 System.out.println("Room Traffic per Day is");
+//System.out.println(n);
 numberOfSqFeet=n*numberOfSqFeet;
 System.out.println(numberOfSqFeet);
 
+}
 }

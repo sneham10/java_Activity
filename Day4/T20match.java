@@ -1,10 +1,10 @@
 package Day4;
 
-public class T20Match extends Match {
+public class T20match extends Match {
 
-	public T20Match() {
+	public T20match() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override
@@ -15,7 +15,6 @@ public class T20Match extends Match {
 	@Override
 	
 	float calculateBalls() {
-		// TODO Auto-generated method stub
 		return 6*(20-getCurrentOver());
 	}
 	public void display()

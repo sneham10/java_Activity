@@ -2,7 +2,7 @@ package Day4;
 import java.util.*;
 public class Main {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Match Format");
 		System.out.println("1.ODI\n2.T20\n3.Test");
@@ -27,21 +27,23 @@ public class Main {
 		
 		switch(c)
 		{
-		case 1: ODIMatch o1 =new ODIMatch();
+		case 1: 
+		    ODIMatch o1 =new ODIMatch();
 				o1.setCurrentScore(cScore);
 				o1.setCurrentOver(cOver);
 				o1.setTarget(tScore);
 				o1.display();
 			break;
 			
-		case 2: T20Match tt1 = new T20Match();
+		case 2: 
+		    T20match tt1 = new T20match();
 				tt1.setCurrentScore(cScore);
 				tt1.setCurrentOver(cOver);
 				tt1.setTarget(tScore);
 				tt1.display();
 			break;
 		
-		case 3: TestMatch t1 = new TestMatch();
+		case 3: Testmatch t1 = new Testmatch();
 				t1.setCurrentScore(cScore);
 				t1.setCurrentOver(cOver);
 				t1.setTarget(tScore);
