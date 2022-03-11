@@ -1,3 +1,5 @@
+package Day3;
+
 class Suiteroom extends Hotelroom{
 
     private int ratepersqfeet=15;

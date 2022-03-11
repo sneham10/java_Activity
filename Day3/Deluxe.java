@@ -1,3 +1,5 @@
+package Day3;
+
 
 class Deluxe extends Hotelroom{
 

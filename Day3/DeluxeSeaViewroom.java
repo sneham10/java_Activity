@@ -1,3 +1,5 @@
+package Day3;
+
 class DeluxeSeaViewroom extends Deluxe{
     private int ratepersqfeets=12;
     DeluxeSeaViewroom()
